@@ -1,0 +1,71 @@
+<html><head><title>various programming techniques</title></head><body bgcolor="d8d8bf">
+<h1><font color="#000000" size="5" face="Times New Roman"><center>Various Programming Techniques</center></font></h1>
+
+<font color="#0000ff" size="3" face="Final Frontier"><left>
+<br><br>
+<p>This section is a short survey of programming techniques. There are various types of programming technique is available in the programming era. Here more focus has been given over OOP.</p>
+
+
+<p><font color="#000000" size="3" face="Final Frontier"><b>List of Various Programming Technique:</b></font></p>
+<ol type="square">
+<li><b>Unstructured Programming</b>
+<li><b>Procedural Programming</b>
+<li><b>Modular Programming</b>
+<li><b>Object-Oriented Programming (OOP)</b>
+</ol>
+
+
+<br><br><br>
+
+
+<p><font color="#ff0000" size="4" face="Final Frontier"><b><u>Unstructured Programming</u> :-</b></font>  Usually, people start learning programming by writing small and simple programs consisting only of one main program.</p>
+<p>Here "main program'' stands for a sequence of commands or statements which modify data which is global throughout the whole program.</p>
+<p>The main program directly operates on global data.</p>
+<center><img src="imgs/cpp01_02_01.gif" width="250" height="200"></center>
+<p>As you should all know, this programming techniques provide tremendous disadvantages once the program gets sufficiently large.</p>
+<p><b>For example,</b> if the same statement sequence is needed at different locations within the program, the sequence must be copied.</p>
+<p>This has lead to the idea to extract these sequences, name them and offering a technique to call and return from these procedures.</p>
+
+
+<br><br>
+
+
+<p><font color="#ff0000" size="4" face="Final Frontier"><b><u>Procedural Programming</u> :-</b></font>  With procedural programming you are able to combine returning sequences of statements into one single place.</p>
+<p>A procedure call is used to invoke the procedure. After the sequence is processed, flow of control proceeds right after the position where the call was made.</p>
+<p>Execution of procedures. After processing flow of controls proceed where the call was made.</p>
+<center><img src="imgs/cpp01_02_02.gif" width="250" height="300"></center>
+<p>With introducing parameters as well as procedures of procedures (sub procedures) programs can now be written more structured and error free.</p>
+<p><b>For example,</b> if a procedure is correct, every time it is used it produces correct results. Consequently, in cases of errors you can narrow your search to those places which are not proven to be correct.</p>
+<p>Now a program can be viewed as a sequence of procedure calls. The main program is responsible to pass data to the individual calls, the data is processed by the procedures and, once the program has finished, the resulting data is presented.</p>
+<p>Thus, the flow of data can be illustrated as a hierarchical graph, a tree, as shown below for a program with no sub procedures:</p>
+<p>In the Procedural programming technique main program coordinates calls to procedures and hands over appropriate data as parameters.</p>
+<center><img src="imgs/cpp01_02_03.gif" width="250" height="200"></center>
+<p>Now we have a single program which is divided into small pieces called procedures. To enable usage of general procedures or groups of procedures also in other programs, they must be separately available.</p>
+
+
+<br><br>
+
+
+<p><font color="#ff0000" size="4" face="Final Frontier"><b><u>Modular Programming</u> :-</b></font>  With modular programming procedures of a common functionality are grouped together into separate modules.</p>
+<p>A program therefore no longer consists of only one single part. It is now divided into several smaller parts which interact through procedure calls and which form the whole program. </p>
+<p>Modular programming. The main program coordinates calls to procedures in separate modules and hands over appropriate data as parameters.</p>
+<center><img src="imgs/cpp01_02_04.gif" width="450" height="400"></center>
+<p>Each module can have its own data. This allows each module to manage an internal state which is modified by calls to procedures of this module. However, there is only one state per module and each module exists at most once in the whole program.</p>
+
+
+<br><br>
+
+
+<p><font color="#ff0000" size="4" face="Final Frontier"><b><u>Object-Oriented Programming (OOP)</u> :-</b></font>  Today's large scale software systems are typically designed and implemented using the concepts of the object-oriented model.</p>
+<p>However, there is still a need for the existing OO languages and architectures to continuously adapt in response to demands for new features and paradigms.</p>
+<p>These new features include topics such as dynamic software evolution, security, safety, distribution and expressiveness.</p>
+<p>Object programming is an approach that provides a way of modularizing programs by creating partitioned memory area for both data and functions that can be used as templates for creating copies of such modules on demand.</p>
+<p>That is, an object is considered to be a partitioned area of computer memory that stores data and set of operations that can access data.</p>
+<p>Since the memory partitions are independent, the objects can be used in a variety of different program without modifications.</p>
+<p>In Object-oriented programming technique the Objects of the program interact by sending messages to each other as shown below.</p>
+<center><img src="imgs/cpp01_02_05.gif" width="450" height="400"></center>
+
+
+
+<br><br>
+</left></font></body></html>
